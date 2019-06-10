@@ -29,3 +29,14 @@ print(products)
 # pprint(products)
 
 # TODO: write some Python code here to produce the desired output
+
+products_count = len(products)
+
+print("--------------")
+print("THERE ARE " + str(products_count) + " PRODUCTS:")
+print("--------------")
+
+for p in products:
+    #price_usd = p["price"]
+    price_usd = '${0:.2f}'.format(p["price"])
+    print(" + " + p["name"] + " (" + str(price_usd) + ")")
