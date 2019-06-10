@@ -1,14 +1,3 @@
-# groceries-exercise
-
-# after cloning the groceries-exercise repo, navigate there from the command-line:
-
-```
-cd ~/Desktop/groceries-exercise
-```
-
-# use your text editor or the command-line to create a file in that repo called "groceries.py", and then place the following contents inside:
-
-```
 # groceries.py
 
 #from pprint import pprint
@@ -40,23 +29,3 @@ print(products)
 # pprint(products)
 
 # TODO: write some Python code here to produce the desired output
-```
-
-# create and activate a new Anaconda virtual envirnment:
-
-```
-conda create -n groceries-env python=3.7 # (first time only)
-conda activate groceries-env
-```
-
-# from within the virtual environment, install the pytest package:
-
-```
-pip install pytest
-```
-
-# from within the virtual environment, demonstrate your ability to run the python script from the command-line:
-
-```
-python groceries.py
-````
